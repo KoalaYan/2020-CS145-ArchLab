@@ -1,0 +1,1183 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+PC:         0
+STALL:x
+ID_EX_MEMREAD:x
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: x
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: x
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:x
+MEM_WB_MEMTOREG:x
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:x
+FORWARD_EX_B:x
+FORWARD_MEM_A:x
+FORWARD_MEM_B:x
+clear
+ID_EX_pcp:         x
+ID_EX_ctr:  0
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:x
+ID_EX_ALUSRC:x
+ID_EX_MEMREAD:x
+ID_EX_REGWRITE:x
+instAddr:         0
+reg 0read_data1:         0
+reg 0read_data2:         0
+mux_reg: 0
+ALU_result:         0
+zero:1
+add
+add         0,         0
+ALU_result:         0
+zero:1
+add
+PC:         0
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 0
+MEM_WB_aluRes:         0
+MEM_WB_memData:         x
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         x
+EX_MEM_writeData:         x
+EX_MEM_regd: x
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:  0
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:         0
+IF_ID_inst:00000000000000000000000000000000
+instAddr:         4
+lw
+mux_reg: 0
+reg 0read_data1:         0
+reg 1read_data2:         0
+sll
+sll         0,         0
+ALU_result:         0
+zero:1
+PC:         4
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 1
+MEM_WB_aluRes:         x
+MEM_WB_memData:         0
+MEM_WB_regd: x
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:161
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:         4
+IF_ID_inst:10001100000000010000000000001010
+add
+mux_reg: 1
+instAddr:         8
+lw
+reg 0read_data1:         0
+reg 2read_data2:         0
+sll         0,        10
+ALU_result:        10
+zero:0
+add         0,        10
+ALU_result:        10
+zero:0
+PC:         8
+STALL:0
+ID_EX_MEMREAD:1
+ID_EX_inst_rt: 1
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 1
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         4
+ID_EX_ctr:275
+ID_EX_imm:        10
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 1
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:1
+ID_EX_MEMREAD:1
+ID_EX_REGWRITE:1
+IF_ID_pcp:         8
+IF_ID_inst:10001100000000100000000000001011
+mem        10 read_data:       266
+mux_reg: 2
+instAddr:        12
+add         0,        11
+ALU_result:        11
+zero:0
+reg 1read_data1:         0
+reg 2read_data2:         0
+add
+reg_write_data:         0
+PC:        12
+STALL:1
+ID_EX_MEMREAD:1
+ID_EX_inst_rt: 2
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 2
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:        10
+EX_MEM_writeData:         0
+EX_MEM_regd: 1
+EX_MEM_ctr:19
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+clear
+ID_EX_pcp:         8
+ID_EX_ctr:275
+ID_EX_imm:        11
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 2
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:1
+ID_EX_MEMREAD:1
+ID_EX_REGWRITE:1
+mem        11 read_data:       267
+add
+mux_reg: 0
+add         0,         0
+ALU_result:         0
+zero:1
+reg_write_data:       266
+reg 1read_data1:       266
+reg 2read_data2:         0
+PC:        12
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:        10
+MEM_WB_memData:       266
+MEM_WB_regd: 1
+MEM_WB_ctr:3
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:1
+EX_MEM_aluRes:        11
+EX_MEM_writeData:         0
+EX_MEM_regd: 2
+EX_MEM_ctr:19
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:  0
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        12
+IF_ID_inst:00000000001000100001100000100000
+mux_reg: 3
+instAddr:        16
+add       266,       266
+ALU_result:       532
+zero:0
+add
+add       266,       267
+ALU_result:       533
+zero:0
+reg_write_data:       267
+reg 1read_data1:       266
+reg 2read_data2:       267
+PC:        16
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 2
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 2
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:        11
+MEM_WB_memData:       267
+MEM_WB_regd: 2
+MEM_WB_ctr:3
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:1
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:1
+ID_EX_pcp:        12
+ID_EX_ctr:161
+ID_EX_imm:      6176
+ID_EX_readData1:       266
+ID_EX_readData2:         0
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 2
+ID_EX_inst_rd: 3
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        16
+IF_ID_inst:00000000001000100010000000100010
+mux_reg: 4
+instAddr:        20
+sub
+sub       266,       267
+ALU_result:4294967295
+zero:0
+PC:        20
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 2
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 2
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:       533
+EX_MEM_writeData:       267
+EX_MEM_regd: 3
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        16
+ID_EX_ctr:161
+ID_EX_imm:      8226
+ID_EX_readData1:       266
+ID_EX_readData2:       267
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 2
+ID_EX_inst_rd: 4
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        20
+IF_ID_inst:00000000001000100010100000100100
+mux_reg: 5
+instAddr:        24
+and
+and       266,       267
+ALU_result:       266
+zero:0
+reg_write_data:       533
+reg 1read_data1:       266
+reg 2read_data2:       267
+PC:        24
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 2
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 2
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:       533
+MEM_WB_memData:         0
+MEM_WB_regd: 3
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:4294967295
+EX_MEM_writeData:       267
+EX_MEM_regd: 4
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        20
+ID_EX_ctr:161
+ID_EX_imm:     10276
+ID_EX_readData1:       266
+ID_EX_readData2:       267
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 2
+ID_EX_inst_rd: 5
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        24
+IF_ID_inst:00000000001000100011000000100101
+mux_reg: 6
+instAddr:        28
+or
+or       266,       267
+ALU_result:       267
+zero:0
+reg_write_data:4294967295
+reg 1read_data1:       266
+reg 2read_data2:       267
+PC:        28
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 2
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 2
+IF_ID_inst_rt: 2
+MEM_WB_aluRes:4294967295
+MEM_WB_memData:         0
+MEM_WB_regd: 4
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:       266
+EX_MEM_writeData:       267
+EX_MEM_regd: 5
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        24
+ID_EX_ctr:161
+ID_EX_imm:     12325
+ID_EX_readData1:       266
+ID_EX_readData2:       267
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 2
+ID_EX_inst_rd: 6
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        28
+IF_ID_inst:00000000001000100101000000101010
+mux_reg:10
+instAddr:        32
+reg 0read_data1:         0
+reg 1read_data2:       266
+slt
+slt       266,       267
+ALU_result:         1
+zero:0
+reg_write_data:       266
+reg 0read_data1:         0
+reg 1read_data2:       266
+PC:        32
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 2
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 2
+IF_ID_inst_rt: 1
+MEM_WB_aluRes:       266
+MEM_WB_memData:         0
+MEM_WB_regd: 5
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:       267
+EX_MEM_writeData:       267
+EX_MEM_regd: 6
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        28
+ID_EX_ctr:161
+ID_EX_imm:     20522
+ID_EX_readData1:       266
+ID_EX_readData2:       267
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 2
+ID_EX_inst_rd:10
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        32
+IF_ID_inst:00000000000000010101100010000000
+mux_reg:11
+instAddr:        36
+slt         0,       266
+ALU_result:         1
+zero:0
+sll
+sll         2,       266
+ALU_result:      1064
+zero:0
+reg_write_data:       267
+reg 0read_data1:         0
+reg 1read_data2:       266
+PC:        36
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 1
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 1
+IF_ID_inst_rt: 1
+MEM_WB_aluRes:       267
+MEM_WB_memData:         0
+MEM_WB_regd: 6
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         1
+EX_MEM_writeData:       267
+EX_MEM_regd:10
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        32
+ID_EX_ctr:161
+ID_EX_imm:     22656
+ID_EX_readData1:         0
+ID_EX_readData2:       266
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 1
+ID_EX_inst_rd:11
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        36
+IF_ID_inst:00000000000000010110000010000010
+mux_reg:12
+instAddr:        40
+reg 0read_data1:         0
+reg 0read_data2:         0
+srl
+srl         2,       266
+ALU_result:        66
+zero:0
+reg_write_data:         1
+reg 0read_data1:         0
+reg 0read_data2:         0
+PC:        40
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 1
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 1
+IF_ID_inst_rt: 0
+MEM_WB_aluRes:         1
+MEM_WB_memData:         0
+MEM_WB_regd:10
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:      1064
+EX_MEM_writeData:       266
+EX_MEM_regd:11
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        36
+ID_EX_ctr:161
+ID_EX_imm:     24706
+ID_EX_readData1:         0
+ID_EX_readData2:       266
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 1
+ID_EX_inst_rd:12
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        40
+IF_ID_inst:00001000000000000000000000001011
+jump is 1
+JUMP_ADDRESS:        44
+add
+mux_reg: 0
+instAddr:        44
+srl         0,         0
+ALU_result:         0
+zero:1
+add         0,         0
+ALU_result:         0
+zero:1
+reg_write_data:      1064
+reg 0read_data1:         0
+reg 0read_data2:         0
+PC:        44
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 0
+MEM_WB_aluRes:      1064
+MEM_WB_memData:         0
+MEM_WB_regd:11
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:        66
+EX_MEM_writeData:       266
+EX_MEM_regd:12
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        40
+ID_EX_ctr:  0
+ID_EX_imm:        11
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:         0
+IF_ID_inst:00000000000000000000000000000000
+sll
+instAddr:        48
+sw
+mux_reg: 0
+reg 0read_data1:         0
+reg 3read_data2:       533
+sll         0,         0
+ALU_result:         0
+zero:1
+reg_write_data:        66
+reg 0read_data1:         0
+reg 3read_data2:       533
+PC:        48
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 3
+MEM_WB_aluRes:        66
+MEM_WB_memData:         0
+MEM_WB_regd:12
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:161
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        48
+IF_ID_inst:10101100000000110000000000001010
+add
+mux_reg: 3
+instAddr:        52
+beq
+sll         0,        10
+ALU_result:        10
+zero:0
+reg31read_data1:         0
+reg30read_data2:         0
+add         0,        10
+ALU_result:        10
+zero:0
+PC:        52
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 3
+IF_ID_inst_rs:31
+ID_EX_inst_rt: 3
+IF_ID_inst_rt:30
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        48
+ID_EX_ctr:264
+ID_EX_imm:        10
+ID_EX_readData1:         0
+ID_EX_readData2:       533
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 3
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:1
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        52
+IF_ID_inst:00010011111111100000000000000000
+sub
+mux_reg:30
+instAddr:        56
+addi
+
+add         0,         0
+ALU_result:         0
+zero:1
+reg 1read_data1:       266
+reg 7read_data2:         0
+sub         0,         0
+ALU_result:         0
+zero:1
+reg_write_data:         0
+mem_write_data:       533
+PC:        56
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt:30
+IF_ID_inst_rs: 1
+ID_EX_inst_rt:30
+IF_ID_inst_rt: 7
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:        10
+EX_MEM_writeData:       533
+EX_MEM_regd: 3
+EX_MEM_ctr: 8
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+clear
+ID_EX_pcp:        52
+ID_EX_ctr: 68
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs:31
+ID_EX_inst_rt:30
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        56
+IF_ID_inst:00100000001001110000000000000010
+branch is 1
+BRANCH_ADDRESS:        52
+sub
+mux_reg: 0
+instAddr:        52
+reg 0read_data1:         0
+reg 0read_data2:         0
+sub
+PC:        52
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 0
+MEM_WB_aluRes:        10
+MEM_WB_memData:         0
+MEM_WB_regd: 3
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd:30
+EX_MEM_ctr: 4
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:  0
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:         0
+IF_ID_inst:00000000000000000000000000000000
+instAddr:        56
+addi
+
+mux_reg: 0
+reg 1read_data1:       266
+reg 7read_data2:         0
+sll
+sll         0,         0
+ALU_result:         0
+zero:1
+PC:        56
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 7
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd:30
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:161
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        56
+IF_ID_inst:00100000001001110000000000000010
+add
+mux_reg: 7
+instAddr:        60
+andi
+
+reg 1read_data1:       266
+reg 8read_data2:         0
+sll         0,         2
+ALU_result:         2
+zero:0
+add       266,         2
+ALU_result:       268
+zero:0
+PC:        60
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 7
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 7
+IF_ID_inst_rt: 8
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        56
+ID_EX_ctr:257
+ID_EX_imm:         2
+ID_EX_readData1:       266
+ID_EX_readData2:         0
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 7
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:1
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        60
+IF_ID_inst:00110000001010000000000000000010
+and
+mux_reg: 8
+instAddr:        64
+ori
+
+reg 1read_data1:       266
+reg 9read_data2:         0
+and       266,         2
+ALU_result:         2
+zero:0
+reg_write_data:         0
+PC:        64
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 8
+IF_ID_inst_rs: 1
+ID_EX_inst_rt: 8
+IF_ID_inst_rt: 9
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:       268
+EX_MEM_writeData:         0
+EX_MEM_regd: 7
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        60
+ID_EX_ctr:257
+ID_EX_imm:         2
+ID_EX_readData1:       266
+ID_EX_readData2:         0
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 8
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:1
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        64
+IF_ID_inst:00110100001010010000000000000010
+or
+mux_reg: 9
+instAddr:        68
+reg xread_data1:         x
+reg xread_data2:         x
+or       266,         2
+ALU_result:       266
+zero:0
+reg_write_data:       268
+reg xread_data1:         x
+reg xread_data2:         x
+PC:        68
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 9
+IF_ID_inst_rs: x
+ID_EX_inst_rt: 9
+IF_ID_inst_rt: x
+MEM_WB_aluRes:       268
+MEM_WB_memData:         0
+MEM_WB_regd: 7
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         2
+EX_MEM_writeData:         0
+EX_MEM_regd: 8
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        64
+ID_EX_ctr:257
+ID_EX_imm:         2
+ID_EX_readData1:       266
+ID_EX_readData2:         0
+ID_EX_inst_rs: 1
+ID_EX_inst_rt: 9
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:1
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        68
+IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+add
+mux_reg: x
+instAddr:        72
+or         x,         x
+ALU_result:         x
+zero:0
+add         x,         x
+ALU_result:         x
+zero:0
+reg_write_data:         2
+reg xread_data1:         x
+reg xread_data2:         x
+PC:        72
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: x
+IF_ID_inst_rs: x
+ID_EX_inst_rt: x
+IF_ID_inst_rt: x
+MEM_WB_aluRes:         2
+MEM_WB_memData:         0
+MEM_WB_regd: 8
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:       266
+EX_MEM_writeData:         0
+EX_MEM_regd: 9
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:x
+FORWARD_EX_B:x
+FORWARD_MEM_A:x
+FORWARD_MEM_B:x
+ID_EX_pcp:        68
+ID_EX_ctr:  0
+ID_EX_imm:         X
+ID_EX_readData1:         x
+ID_EX_readData2:         x
+ID_EX_inst_rs: x
+ID_EX_inst_rt: x
+ID_EX_inst_rd: x
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        72
+IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instAddr:        76
+reg_write_data:       266
+reg xread_data1:         x
+reg xread_data2:         x
+PC:        76
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: x
+IF_ID_inst_rs: x
+ID_EX_inst_rt: x
+IF_ID_inst_rt: x
+MEM_WB_aluRes:       266
+MEM_WB_memData:         0
+MEM_WB_regd: 9
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         x
+EX_MEM_writeData:         x
+EX_MEM_regd: x
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:x
+FORWARD_MEM_B:x
+ID_EX_pcp:        72
+ID_EX_ctr:  0
+ID_EX_imm:         X
+ID_EX_readData1:         x
+ID_EX_readData2:         x
+ID_EX_inst_rs: x
+ID_EX_inst_rt: x
+ID_EX_inst_rd: x
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        76
+IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instAddr:        80
+PC:        80
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: x
+IF_ID_inst_rs: x
+ID_EX_inst_rt: x
+IF_ID_inst_rt: x
+MEM_WB_aluRes:         x
+MEM_WB_memData:         0
+MEM_WB_regd: x
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         x
+EX_MEM_writeData:         x
+EX_MEM_regd: x
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        76
+ID_EX_ctr:  0
+ID_EX_imm:         X
+ID_EX_readData1:         x
+ID_EX_readData2:         x
+ID_EX_inst_rs: x
+ID_EX_inst_rt: x
+ID_EX_inst_rd: x
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        80
+IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instAddr:        84
+PC:        84
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: x
+IF_ID_inst_rs: x
+ID_EX_inst_rt: x
+IF_ID_inst_rt: x
+MEM_WB_aluRes:         x
+MEM_WB_memData:         0
+MEM_WB_regd: x
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         x
+EX_MEM_writeData:         x
+EX_MEM_regd: x
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:        80
+ID_EX_ctr:  0
+ID_EX_imm:         X
+ID_EX_readData1:         x
+ID_EX_readData2:         x
+ID_EX_inst_rs: x
+ID_EX_inst_rt: x
+ID_EX_inst_rd: x
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:        84
+IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instAddr:        88

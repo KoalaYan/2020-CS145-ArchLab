@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Apr 17 07:39:01 2020
+# Process ID: 7260
+# Current directory: C:/koala/lab02
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9516 C:\koala\lab02\lab02.xpr
+# Log file: C:/koala/lab02/vivado.log
+# Journal file: C:/koala/lab02\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/koala/lab02/lab02.xpr
+update_compile_order -fileset sources_1
+close [ open C:/koala/lab02/lab02.srcs/sources_1/new/Top.v w ]
+add_files C:/koala/lab02/lab02.srcs/sources_1/new/Top.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/Administrator/Downloads/1.实验文档/Data/lab2_IP/display.edif
+add_files -norecurse C:/Users/Administrator/Downloads/1.实验文档/Data/lab2_IP/display.v
+update_compile_order -fileset sources_1
+file mkdir C:/koala/lab02/lab02.srcs/constrs_1
+file mkdir C:/koala/lab02/lab02.srcs/constrs_1/new
+close [ open C:/koala/lab02/lab02.srcs/constrs_1/new/lab02_xdc.xdc w ]
+add_files -fileset constrs_1 C:/koala/lab02/lab02.srcs/constrs_1/new/lab02_xdc.xdc
+close_project
+create_project lab3 C:/koala/lab3 -part xc7k325tffg676-2
+file mkdir C:/koala/lab3/lab3.srcs/sources_1/new
+close [ open C:/koala/lab3/lab3.srcs/sources_1/new/Ctr.v w ]
+add_files C:/koala/lab3/lab3.srcs/sources_1/new/Ctr.v
+update_compile_order -fileset sources_1
+file mkdir C:/koala/lab3/lab3.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/koala/lab3/lab3.srcs/sim_1/new/Ctr_tb.v w ]
+add_files -fileset sim_1 C:/koala/lab3/lab3.srcs/sim_1/new/Ctr_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source Ctr_tb.tcl
+close_sim
+launch_simulation
+source Ctr_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Ctr_tb.tcl
+close_sim
+launch_simulation
+source Ctr_tb.tcl
+close_sim
+launch_simulation
+source Ctr_tb.tcl
+close [ open C:/koala/lab3/lab3.srcs/sources_1/new/ALUCtr.v w ]
+add_files C:/koala/lab3/lab3.srcs/sources_1/new/ALUCtr.v
+update_compile_order -fileset sources_1
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/koala/lab3/lab3.srcs/sim_1/new/ALUCtr_tb.v w ]
+add_files -fileset sim_1 C:/koala/lab3/lab3.srcs/sim_1/new/ALUCtr_tb.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/koala/lab3/lab3.srcs/sim_1/new/ALUCtr_tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/koala/lab3/lab3.srcs/sim_1/new/ALUCtr_tb.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/koala/lab3/lab3.srcs/sim_1/new/ALUCtr_tb.v
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALUCtr [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+undo
+undo
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALUCtr_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source ALUCtr_tb.tcl
+close_sim
+launch_simulation
+source ALUCtr_tb.tcl
+close_sim
+launch_simulation
+source ALUCtr_tb.tcl
+close_sim
+launch_simulation
+source ALUCtr_tb.tcl
+close_sim
+launch_simulation
+source ALUCtr_tb.tcl
+close_sim
+launch_simulation
+source ALUCtr_tb.tcl
+close_sim
+close [ open C:/koala/lab3/lab3.srcs/sources_1/new/ALU.v w ]
+add_files C:/koala/lab3/lab3.srcs/sources_1/new/ALU.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/koala/lab3/lab3.srcs/sim_1/new/ALU_tb.v w ]
+add_files -fileset sim_1 C:/koala/lab3/lab3.srcs/sim_1/new/ALU_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+source ALU_tb.tcl
+close_sim

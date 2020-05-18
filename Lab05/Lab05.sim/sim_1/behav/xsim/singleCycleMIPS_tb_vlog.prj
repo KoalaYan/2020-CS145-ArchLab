@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab05.srcs/sources_1/imports/koala/lab3/lab3.srcs/sources_1/new/ALU.v" \
+"../../../../Lab05.srcs/sources_1/new/Branch_selector.v" \
+"../../../../Lab05.srcs/sources_1/imports/koala/lab3/lab3.srcs/sources_1/new/Ctr.v" \
+"../../../../Lab05.srcs/sources_1/new/InstMemory.v" \
+"../../../../Lab05.srcs/sources_1/new/J_or_Jr.v" \
+"../../../../Lab05.srcs/sources_1/new/Jump_selector.v" \
+"../../../../Lab05.srcs/sources_1/new/Mem_Reg_selector.v" \
+"../../../../Lab05.srcs/sources_1/new/PC.v" \
+"../../../../Lab05.srcs/sources_1/new/Reg_Imm_selector.v" \
+"../../../../Lab05.srcs/sources_1/imports/koala/Lab04/Lab04.srcs/sources_1/new/Registers.v" \
+"../../../../Lab05.srcs/sources_1/new/Rt_selector.v" \
+"../../../../Lab05.srcs/sources_1/new/Shift_selector.v" \
+"../../../../Lab05.srcs/sources_1/new/Top.v" \
+"../../../../Lab05.srcs/sources_1/imports/koala/Lab04/Lab04.srcs/sources_1/new/dataMemory.v" \
+"../../../../Lab05.srcs/sources_1/imports/koala/Lab04/Lab04.srcs/sources_1/new/signext.v" \
+"../../../../Lab05.srcs/sim_1/new/singleCycleMIPS_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/koala/lab02/lab02.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/koala/lab02/lab02.srcs/sim_1/new/adder_4bits_tb.v,1586484016,verilog,,,,adder_4bits_tb,,,,,,,,
+C:/koala/lab02/lab02.srcs/sources_1/new/adder_1bit.v,1586483827,verilog,,C:/koala/lab02/lab02.srcs/sources_1/new/adder_4bits.v,,adder_1bit,,,,,,,,
+C:/koala/lab02/lab02.srcs/sources_1/new/adder_4bits.v,1586483001,verilog,,C:/koala/lab02/lab02.srcs/sim_1/new/adder_4bits_tb.v,,adder_4bits,,,,,,,,

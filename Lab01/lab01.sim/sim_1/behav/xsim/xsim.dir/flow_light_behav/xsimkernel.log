@@ -1,0 +1,7 @@
+Running: xsim.dir/flow_light_behav/xsimk.exe -simmode gui -wdb flow_light_behav.wdb -simrunnum 0 -socket 52822
+Design successfully loaded
+Design Loading Memory Usage: 5712 KB (Peak: 5712 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6304 KB (Peak: 6304 KB)
+Simulation CPU Usage: 46 ms

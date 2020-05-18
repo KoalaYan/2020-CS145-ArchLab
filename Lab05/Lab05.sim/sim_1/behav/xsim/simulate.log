@@ -1,0 +1,309 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+j address is         x
+input data is          0 and          0
+alu result is          0
+input1 is         x and input2 is         0, we choose          x
+extend data is from   10 to        10
+lw
+
+reg_readData is         0 in 0 and         0 in  1
+branch
+j address is    262184
+Reg_Imm_outdata is imm         x
+input1 is         x and input2 is         0, we choose          0
+input data is          0 and          0
+alu result is          0
+normal
+Reg_Imm_outdata is imm        10
+input1 is    262184 and input2 is         4, we choose          4
+input data is          0 and          x
+alu result is          x
+normal
+j address is    262184
+address is          x, and read data is          x
+input data is          0 and         10
+alu result is         10
+j address is    262184
+address is         10, and read data is         10
+Register write data is        10 in 1
+PC is          4
+
+normal
+extend data is from   11 to        11
+lw
+
+reg_readData is         0 in 0 and         0 in  2
+j address is    524332
+input1 is    524332 and input2 is         8, we choose          8
+Reg_Imm_outdata is imm        11
+normal
+input data is          0 and         11
+alu result is         11
+j address is    524332
+address is         11, and read data is         11
+Register write data is        11 in 2
+PC is          8
+
+normal
+extend data is from 6176 to      6176
+add
+
+reg_readData is        10 in 1 and        11 in  2
+j address is   8937600
+Reg_Imm_outdata is regdata        11
+input1 is   8937600 and input2 is        12, we choose         12
+Reg_Imm_outdata is regdata        11
+input data is         10 and         11
+alu result is         21
+normal
+j address is   8937600
+address is         21, and read data is         21
+Register write data is        21 in 3
+PC is         12
+
+normal
+extend data is from 8226 to      8226
+sub
+
+j address is   8945800
+input data is         10 and         11
+alu result is 4294967295
+j address is   8945800
+address is 4294967295, and read data is          x
+input1 is   8945800 and input2 is        16, we choose         16
+Reg_Imm_outdata is regdata        11
+normal
+Register write data is4294967295 in 4
+PC is         16
+
+normal
+extend data is from10276 to     10276
+and
+
+j address is   8954000
+input data is         10 and         11
+alu result is         10
+j address is   8954000
+address is         10, and read data is         10
+input1 is   8954000 and input2 is        20, we choose         20
+Reg_Imm_outdata is regdata        11
+normal
+Register write data is        10 in 5
+PC is         20
+
+normal
+extend data is from12325 to     12325
+or
+
+j address is   8962196
+input data is         10 and         11
+alu result is         11
+j address is   8962196
+address is         11, and read data is         11
+input1 is   8962196 and input2 is        24, we choose         24
+Reg_Imm_outdata is regdata        11
+normal
+Register write data is        11 in 6
+PC is         24
+
+normal
+extend data is from20522 to     20522
+slt
+
+j address is   8994984
+input data is         10 and         11
+alu result is          1
+j address is   8994984
+address is          1, and read data is          1
+input1 is   8994984 and input2 is        28, we choose         28
+Reg_Imm_outdata is regdata        11
+normal
+Register write data is         1 in10
+PC is         28
+
+normal
+extend data is from22656 to     22656
+sll
+
+reg_readData is         0 in 0 and        10 in  1
+j address is    352768
+input data is         10 and         11
+alu result is      11264
+Reg_Imm_outdata is regdata        10
+j address is    352768
+address is      11264, and read data is          x
+input1 is    352768 and input2 is        32, we choose         32
+Reg_Imm_outdata is regdata        10
+input data is          2 and         10
+alu result is         40
+normal
+j address is    352768
+address is         40, and read data is          x
+Register write data is        40 in11
+PC is         32
+
+normal
+extend data is from24706 to     24706
+srl
+
+j address is    360968
+input data is          2 and         10
+alu result is          2
+j address is    360968
+address is          2, and read data is          2
+input1 is    360968 and input2 is        36, we choose         36
+Reg_Imm_outdata is regdata        10
+normal
+Register write data is         2 in12
+PC is         36
+
+normal
+extend data is from   11 to        11
+jump
+
+reg_readData is         0 in 0 and         0 in  0
+j address is        44
+input1 is    360968 and input2 is        36, we choose     360968
+input data is          2 and         10
+alu result is         12
+Reg_Imm_outdata is regdata         0
+j address is        44
+address is         12, and read data is         12
+input1 is        44 and input2 is        40, we choose         44
+Reg_Imm_outdata is regdata         0
+input data is          0 and          0
+alu result is          0
+normal
+j address is        44
+address is          0, and read data is        256
+PC is         44
+
+normal
+extend data is from   10 to        10
+sw
+
+reg_readData is         0 in 0 and        10 in  1
+j address is    262184
+Reg_Imm_outdata is imm        11
+input1 is        44 and input2 is        40, we choose         40
+input1 is    262184 and input2 is        48, we choose         48
+Reg_Imm_outdata is imm        10
+input data is          0 and         11
+alu result is         11
+normal
+j address is    262184
+input data is          0 and         10
+alu result is         10
+j address is    262184
+address is         10, and write data is         10
+PC is         48
+
+normal
+extend data is from    0 to         0
+beq
+
+reg_readData is         0 in31 and         0 in 30
+j address is 267911168
+Reg_Imm_outdata is regdata         0
+input data is          0 and         10
+alu result is 4294967286
+j address is 267911168
+address is 4294967286, and read data is          x
+input1 is 267911168 and input2 is        52, we choose         52
+Reg_Imm_outdata is regdata         0
+input data is          0 and          0
+alu result is          0
+normal
+j address is 267911168
+address is          0, and read data is        256
+branch
+PC is         52
+
+branch
+extend data is from    2 to         2
+addi
+
+reg_readData is        10 in 1 and         0 in  7
+j address is  10223624
+Reg_Imm_outdata is imm         0
+input data is          0 and          0
+alu result is          0
+normal
+input1 is  10223624 and input2 is        56, we choose         56
+Reg_Imm_outdata is imm         2
+input data is         10 and          0
+alu result is         10
+normal
+j address is  10223624
+address is         10, and read data is         10
+input data is         10 and          2
+alu result is         12
+j address is  10223624
+address is         12, and read data is         12
+Register write data is        12 in 7
+PC is         56
+
+normal
+reg_readData is        10 in 1 and         0 in  8
+andi
+
+j address is  10485768
+input data is         10 and          2
+alu result is          2
+j address is  10485768
+address is          2, and read data is          2
+input1 is  10485768 and input2 is        60, we choose         60
+Register write data is         2 in 8
+PC is         60
+
+normal
+reg_readData is        10 in 1 and         0 in  9
+ori
+
+j address is  10747912
+input data is         10 and          2
+alu result is         10
+j address is  10747912
+address is         10, and read data is         10
+input1 is  10747912 and input2 is        64, we choose         64
+Register write data is        10 in 9
+PC is         64
+
+normal
+extend data is from    0 to         0
+jump
+
+reg_readData is         0 in 0 and         0 in  0
+j address is         0
+Reg_Imm_outdata is regdata         0
+input1 is  10747912 and input2 is        64, we choose   10747912
+input data is         10 and          2
+alu result is         12
+j address is         0
+address is         12, and read data is         12
+input1 is         0 and input2 is        68, we choose          0
+Reg_Imm_outdata is regdata         0
+input data is          0 and          0
+alu result is          0
+normal
+j address is         0
+address is          0, and read data is        256
+PC is          0
+
+normal
+extend data is from   10 to        10
+lw
+
+reg_readData is         0 in 0 and        10 in  1
+j address is    262184
+Reg_Imm_outdata is imm         0
+input1 is         0 and input2 is        68, we choose         68
+input1 is    262184 and input2 is         4, we choose          4
+Reg_Imm_outdata is imm        10
+normal
+input data is          0 and         10
+alu result is         10
+j address is    262184
+address is         10, and read data is         10
+$finish called at time : 610 ns : File "C:/koala/Lab05/Lab05.srcs/sim_1/new/singleCycleMIPS_tb.v" Line 45
