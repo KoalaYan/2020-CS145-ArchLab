@@ -10,3 +10,4 @@
  ## Lab05 Single Cycle MIPS
 本实验实现了单周期类MIPS处理器，支持16条MIPS指令（包括R型指令：add、sub、and、or、slt、sll、srl、jr；I型指令：lw、sw、addi、andi、ori、beq；J型指令：j、jal），在继承了实验3、4中部分模块的基础上进行了功能修改以适配顶层组织文件，同时在原有MIPS接线基础上为了方便操作添加了部分辅助控制信号。
  ## Lab06 Pipeline MIPS
+本实验实现了简单的类MIPS多周期流水线处理器，支持16条MIPS指令（包括R型指令：add、sub、and、or、slt、sll、srl、jr；I型指令：lw、sw、addi、andi、ori、beq；J型指令：j、jal），由于实验5中部分模块代码对于流水线设计可继承性较差，又进行了重新设计，同时为了实现流水线效果，增加了流水段寄存器等部件，支持流水线冒险(hazard)检测，插入停顿(stall)机制解决冒险，增加了前项通路(forwarding)减少流水线停顿延时，提高流水线处理器性能。
