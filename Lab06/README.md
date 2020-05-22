@@ -1,4 +1,4 @@
-# 2020-CS145-ArchLab-SingleCycleMIPS  
+# 2020-CS145-ArchLab-PipelineMIPS  
 This version supports 16 MIPS instructions:  
 R-type: add, sub, and, or, slt, sll, srl, jr  
 I-type: addi, andi, ori, lw, sw, beq  
