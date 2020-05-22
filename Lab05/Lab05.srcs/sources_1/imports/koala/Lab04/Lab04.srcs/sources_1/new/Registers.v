@@ -28,6 +28,8 @@ module Registers(
     input regWrite,
     input Clk,
     input Ret,
+    input jal,
+    input[31:0] pcp,
     output [31:0] readData1,
     output [31:0] readData2
     );
@@ -44,8 +46,12 @@ module Registers(
             end
         end
         else if(regWrite) begin
+            if(jal)
+                regFile[31] = pcp;
+            else begin
             regFile[writeReg] = writeData;
             $display("Register write data is%d in%d",writeData,writeReg); end
+            end
         end
         
     always @(readReg1 or readReg2) begin

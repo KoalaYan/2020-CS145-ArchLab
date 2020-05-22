@@ -66,7 +66,8 @@ module Top(
     wire JUMP_C;
     //shift
     wire SHIFT;
-    
+    //jal
+    wire JAL;
     assign JUMP_ADDRESS = (INST[25:0]<<2)+((ADDRESS+4) & 32'hf0000000);
     assign P_ALU_RES = (EXTDATA<<2) + (ADDRESS+4);
     
@@ -145,7 +146,8 @@ module Top(
         .Funct(INST[5:0]),
         .aluCtrOut(ALU_CTR),
         .shift(SHIFT),
-        .jump_mux(JUMP_C)
+        .jump_mux(JUMP_C),
+        .jal(JAL)
     );
     
     Registers register(
@@ -154,6 +156,8 @@ module Top(
         .writeReg(MUX_OUT1),
         .writeData(MUX_OUT5),
         .regWrite(REG_WRITE),
+        .jal(JAL),
+        .pcp(ADDRESS+4),
         .Ret(RET),
         .Clk(CLK),
         .readData1(DATA1),

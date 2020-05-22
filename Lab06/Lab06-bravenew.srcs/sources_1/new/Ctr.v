@@ -32,7 +32,8 @@ module Ctr(
     output branch,
     output [1:0] aluOp,
     output jump,
-    output jr
+    output jr,
+    output jal
     );
     
     reg RegDst;
@@ -45,9 +46,11 @@ module Ctr(
     reg [1:0] ALUOp;
     reg Jump;
     reg Jr;
+    reg Jal;
     
     always @(opCode or funct)
     begin
+        Jal = 0;
         case(opCode)
         6'b000000: //R type
         begin
@@ -174,6 +177,21 @@ module Ctr(
             Jr = 0;
             //$display("jump");
         end
+        6'b000011: //jal
+        begin
+            RegDst = 0;
+            ALUSrc = 0;
+            MemToReg = 0;
+            RegWrite = 0;
+            MemRead = 0;
+            MemWrite = 0;
+            Branch = 0;
+            ALUOp = 2'b00;
+            Jump = 1;
+            Jr = 0;
+            Jal = 1;
+            //$display("jump");
+        end
         
         default:
         begin
@@ -187,6 +205,7 @@ module Ctr(
             ALUOp = 2'b00;
             Jump = 0;
             Jr = 0;
+            Jal = 0;
         end
     endcase
     end
@@ -200,4 +219,5 @@ module Ctr(
     assign aluOp = ALUOp;
     assign jump = Jump;
     assign jr = Jr;
+    assign jal = Jal;
 endmodule

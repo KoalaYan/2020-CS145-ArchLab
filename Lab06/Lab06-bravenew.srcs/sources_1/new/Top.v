@@ -36,6 +36,7 @@ module Top(
     wire BRANCH;  
     wire JUMP;
     wire JR;
+    wire JAL;
     wire ZERO;
       
     //ID2EX
@@ -116,7 +117,8 @@ module Top(
         .branch(CTR_OUT[2]),
         .aluOp(CTR_OUT[7:6]),
         .jump(CTR_OUT[9]),
-        .jr(CTR_OUT[10])
+        .jr(CTR_OUT[10]),
+        .jal(JAL)
     );
     
     //signal extend
@@ -139,7 +141,9 @@ module Top(
         .writeData(REG_WRITE_DATA),
         .regWrite(MEM_WB_REGWRITE),
         .readData1(REG_READ_DATA1),
-        .readData2(REG_READ_DATA2)
+        .readData2(REG_READ_DATA2),
+        .jal(JAL),
+        .pcp(IF_ID_pcp)
     );
     
     //branch

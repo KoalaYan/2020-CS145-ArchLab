@@ -28,6 +28,8 @@ module Registers(
     input[4:0] writeReg,
     input[31:0] writeData,
     input regWrite,
+    input jal,
+    input[31:0] pcp,
     
     output reg[31:0] readData1,
     output reg[31:0] readData2
@@ -42,8 +44,12 @@ module Registers(
     
     always @(negedge clk) begin
         if(regWrite) begin
+            if(jal)
+                regFile[31] <= pcp;
+            else begin
             regFile[writeReg] <= writeData;
             $display("reg_write_data:%d",writeData);
+            end
         end
     end
     

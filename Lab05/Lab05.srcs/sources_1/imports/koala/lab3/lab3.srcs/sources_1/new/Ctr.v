@@ -32,7 +32,7 @@ module Ctr(
     output jump,
     output jump_mux,
     output shift,
-    
+    output jal,
     //input [1:0] ALUOp,
     input [5:0] Funct,
     output[3:0] aluCtrOut
@@ -49,11 +49,13 @@ module Ctr(
     reg Jump;
     reg JumpMux;
     reg Shift;
+    reg Jal;
     reg[3:0] ALUCtrOut;
     
     always@(*)
     begin
         Shift = 0;
+        Jal = 0;
         case(opCode)
         6'b000000: //R type
         begin
@@ -212,6 +214,23 @@ module Ctr(
             ALUCtrOut = 4'b0010;
         end
         
+        6'b000011: //jal
+        begin
+            RegDst = 0;
+            ALUSrc = 0;
+            MemToReg = 0;
+            RegWrite = 1;
+            //MemRead = 0;
+            MemWrite = 0;
+            Branch = 0;
+            //ALUOp = 2'b00;
+            Jump = 1;
+            JumpMux = 0;
+            Jal = 1;
+            $display("jal\n");
+            ALUCtrOut = 4'b0010;
+        end
+        
         default:
         begin
             RegDst = 0;
@@ -224,6 +243,7 @@ module Ctr(
             //ALUOp = 2'b00;
             Jump = 0;
             JumpMux = 0;
+            Jal = 0;
             ALUCtrOut = 4'b0010;//add 2
             Shift = 0;
             $display("default\n");
@@ -242,4 +262,5 @@ module Ctr(
     assign jump_mux = JumpMux;
     assign aluCtrOut = ALUCtrOut;
     assign shift = Shift;
+    assign jal = Jal;
 endmodule

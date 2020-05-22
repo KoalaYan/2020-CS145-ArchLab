@@ -586,12 +586,11 @@ ID_EX_ALUSRC:0
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:1
 IF_ID_pcp:        40
-IF_ID_inst:00001000000000000000000000001011
+IF_ID_inst:00001000000000000000000000001010
 jump is 1
-JUMP_ADDRESS:        44
+JUMP_ADDRESS:        40
 add
 mux_reg: 0
-instAddr:        44
 srl         0,         0
 ALU_result:         0
 zero:1
@@ -601,7 +600,7 @@ zero:1
 reg_write_data:      1064
 reg 0read_data1:         0
 reg 0read_data2:         0
-PC:        44
+PC:        40
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 0
@@ -625,7 +624,7 @@ FORWARD_MEM_A:0
 FORWARD_MEM_B:0
 ID_EX_pcp:        40
 ID_EX_ctr:  0
-ID_EX_imm:        11
+ID_EX_imm:        10
 ID_EX_readData1:         0
 ID_EX_readData2:         0
 ID_EX_inst_rs: 0
@@ -638,24 +637,23 @@ ID_EX_REGWRITE:0
 IF_ID_pcp:         0
 IF_ID_inst:00000000000000000000000000000000
 sll
-instAddr:        48
-sw
+instAddr:        44
 mux_reg: 0
-reg 0read_data1:         0
-reg 3read_data2:       533
+reg31read_data1:         0
+reg 0read_data2:         0
 sll         0,         0
 ALU_result:         0
 zero:1
 reg_write_data:        66
-reg 0read_data1:         0
-reg 3read_data2:       533
-PC:        48
+reg31read_data1:         0
+reg 0read_data2:         0
+PC:        44
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 0
-IF_ID_inst_rs: 0
+IF_ID_inst_rs:31
 ID_EX_inst_rt: 0
-IF_ID_inst_rt: 3
+IF_ID_inst_rt: 0
 MEM_WB_aluRes:        66
 MEM_WB_memData:         0
 MEM_WB_regd:12
@@ -683,11 +681,143 @@ ID_EX_REGDST:1
 ID_EX_ALUSRC:0
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:1
+IF_ID_pcp:        44
+IF_ID_inst:00000011111000000000000000001000
+instAddr:        48
+reg 0read_data1:         0
+reg 0read_data2:         0
+jr
+ALU_result:         0
+zero:1
+PC:        48
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 0
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:0
+MEM_WB_REGWRITE:0
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+clear
+ID_EX_pcp:        44
+ID_EX_ctr:161
+ID_EX_imm:         8
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs:31
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
 IF_ID_pcp:        48
+IF_ID_inst:00001100000000000000000000001100
+jump is 1
+JUMP_ADDRESS:        48
+jr is 1
+JR_ADDRESS:         0
+mux_reg: 0
+jr
+reg_write_data:         0
+PC:        48
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 0
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 1
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:  0
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:0
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:0
+IF_ID_pcp:         0
+IF_ID_inst:00000000000000000000000000000000
+instAddr:        52
+sw
+mux_reg: 0
+reg 0read_data1:         0
+reg 3read_data2:       533
+sll
+sll         0,         0
+ALU_result:         0
+zero:1
+reg_write_data:         0
+PC:        52
+STALL:0
+ID_EX_MEMREAD:0
+ID_EX_inst_rt: 0
+IF_ID_inst_rs: 0
+ID_EX_inst_rt: 0
+IF_ID_inst_rt: 3
+MEM_WB_aluRes:         0
+MEM_WB_memData:         0
+MEM_WB_regd: 0
+MEM_WB_ctr:1
+MEM_WB_REGWRITE:1
+MEM_WB_MEMTOREG:0
+EX_MEM_aluRes:         0
+EX_MEM_writeData:         0
+EX_MEM_regd: 0
+EX_MEM_ctr: 0
+
+FORWARD_EX_A:0
+FORWARD_EX_B:0
+FORWARD_MEM_A:0
+FORWARD_MEM_B:0
+ID_EX_pcp:         0
+ID_EX_ctr:161
+ID_EX_imm:         0
+ID_EX_readData1:         0
+ID_EX_readData2:         0
+ID_EX_inst_rs: 0
+ID_EX_inst_rt: 0
+ID_EX_inst_rd: 0
+ID_EX_REGDST:1
+ID_EX_ALUSRC:0
+ID_EX_MEMREAD:0
+ID_EX_REGWRITE:1
+IF_ID_pcp:        52
 IF_ID_inst:10101100000000110000000000001010
 add
 mux_reg: 3
-instAddr:        52
+instAddr:        56
 beq
 sll         0,        10
 ALU_result:        10
@@ -697,7 +827,7 @@ reg30read_data2:         0
 add         0,        10
 ALU_result:        10
 zero:0
-PC:        52
+PC:        56
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 3
@@ -719,7 +849,7 @@ FORWARD_EX_A:0
 FORWARD_EX_B:0
 FORWARD_MEM_A:0
 FORWARD_MEM_B:0
-ID_EX_pcp:        48
+ID_EX_pcp:        52
 ID_EX_ctr:264
 ID_EX_imm:        10
 ID_EX_readData1:         0
@@ -731,11 +861,11 @@ ID_EX_REGDST:0
 ID_EX_ALUSRC:1
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:0
-IF_ID_pcp:        52
+IF_ID_pcp:        56
 IF_ID_inst:00010011111111100000000000000000
 sub
 mux_reg:30
-instAddr:        56
+instAddr:        60
 addi
 
 add         0,         0
@@ -748,7 +878,7 @@ ALU_result:         0
 zero:1
 reg_write_data:         0
 mem_write_data:       533
-PC:        56
+PC:        60
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt:30
@@ -771,7 +901,7 @@ FORWARD_EX_B:0
 FORWARD_MEM_A:0
 FORWARD_MEM_B:0
 clear
-ID_EX_pcp:        52
+ID_EX_pcp:        56
 ID_EX_ctr: 68
 ID_EX_imm:         0
 ID_EX_readData1:         0
@@ -783,17 +913,17 @@ ID_EX_REGDST:0
 ID_EX_ALUSRC:0
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:0
-IF_ID_pcp:        56
+IF_ID_pcp:        60
 IF_ID_inst:00100000001001110000000000000010
 branch is 1
-BRANCH_ADDRESS:        52
+BRANCH_ADDRESS:        56
 sub
 mux_reg: 0
-instAddr:        52
+instAddr:        56
 reg 0read_data1:         0
 reg 0read_data2:         0
 sub
-PC:        52
+PC:        56
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 0
@@ -829,7 +959,7 @@ ID_EX_MEMREAD:0
 ID_EX_REGWRITE:0
 IF_ID_pcp:         0
 IF_ID_inst:00000000000000000000000000000000
-instAddr:        56
+instAddr:        60
 addi
 
 mux_reg: 0
@@ -839,7 +969,7 @@ sll
 sll         0,         0
 ALU_result:         0
 zero:1
-PC:        56
+PC:        60
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 0
@@ -873,11 +1003,11 @@ ID_EX_REGDST:1
 ID_EX_ALUSRC:0
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:1
-IF_ID_pcp:        56
+IF_ID_pcp:        60
 IF_ID_inst:00100000001001110000000000000010
 add
 mux_reg: 7
-instAddr:        60
+instAddr:        64
 andi
 
 reg 1read_data1:       266
@@ -888,7 +1018,7 @@ zero:0
 add       266,         2
 ALU_result:       268
 zero:0
-PC:        60
+PC:        64
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 7
@@ -910,7 +1040,7 @@ FORWARD_EX_A:0
 FORWARD_EX_B:0
 FORWARD_MEM_A:0
 FORWARD_MEM_B:0
-ID_EX_pcp:        56
+ID_EX_pcp:        60
 ID_EX_ctr:257
 ID_EX_imm:         2
 ID_EX_readData1:       266
@@ -922,11 +1052,11 @@ ID_EX_REGDST:0
 ID_EX_ALUSRC:1
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:1
-IF_ID_pcp:        60
+IF_ID_pcp:        64
 IF_ID_inst:00110000001010000000000000000010
 and
 mux_reg: 8
-instAddr:        64
+instAddr:        68
 ori
 
 reg 1read_data1:       266
@@ -935,7 +1065,7 @@ and       266,         2
 ALU_result:         2
 zero:0
 reg_write_data:         0
-PC:        64
+PC:        68
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 8
@@ -957,7 +1087,7 @@ FORWARD_EX_A:0
 FORWARD_EX_B:0
 FORWARD_MEM_A:0
 FORWARD_MEM_B:0
-ID_EX_pcp:        60
+ID_EX_pcp:        64
 ID_EX_ctr:257
 ID_EX_imm:         2
 ID_EX_readData1:       266
@@ -969,11 +1099,11 @@ ID_EX_REGDST:0
 ID_EX_ALUSRC:1
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:1
-IF_ID_pcp:        64
+IF_ID_pcp:        68
 IF_ID_inst:00110100001010010000000000000010
 or
 mux_reg: 9
-instAddr:        68
+instAddr:        72
 reg xread_data1:         x
 reg xread_data2:         x
 or       266,         2
@@ -982,7 +1112,7 @@ zero:0
 reg_write_data:       268
 reg xread_data1:         x
 reg xread_data2:         x
-PC:        68
+PC:        72
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: 9
@@ -1004,7 +1134,7 @@ FORWARD_EX_A:0
 FORWARD_EX_B:0
 FORWARD_MEM_A:0
 FORWARD_MEM_B:0
-ID_EX_pcp:        64
+ID_EX_pcp:        68
 ID_EX_ctr:257
 ID_EX_imm:         2
 ID_EX_readData1:       266
@@ -1016,11 +1146,11 @@ ID_EX_REGDST:0
 ID_EX_ALUSRC:1
 ID_EX_MEMREAD:0
 ID_EX_REGWRITE:1
-IF_ID_pcp:        68
+IF_ID_pcp:        72
 IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 add
 mux_reg: x
-instAddr:        72
+instAddr:        76
 or         x,         x
 ALU_result:         x
 zero:0
@@ -1030,7 +1160,7 @@ zero:0
 reg_write_data:         2
 reg xread_data1:         x
 reg xread_data2:         x
-PC:        72
+PC:        76
 STALL:0
 ID_EX_MEMREAD:0
 ID_EX_inst_rt: x
@@ -1052,46 +1182,6 @@ FORWARD_EX_A:x
 FORWARD_EX_B:x
 FORWARD_MEM_A:x
 FORWARD_MEM_B:x
-ID_EX_pcp:        68
-ID_EX_ctr:  0
-ID_EX_imm:         X
-ID_EX_readData1:         x
-ID_EX_readData2:         x
-ID_EX_inst_rs: x
-ID_EX_inst_rt: x
-ID_EX_inst_rd: x
-ID_EX_REGDST:0
-ID_EX_ALUSRC:0
-ID_EX_MEMREAD:0
-ID_EX_REGWRITE:0
-IF_ID_pcp:        72
-IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-instAddr:        76
-reg_write_data:       266
-reg xread_data1:         x
-reg xread_data2:         x
-PC:        76
-STALL:0
-ID_EX_MEMREAD:0
-ID_EX_inst_rt: x
-IF_ID_inst_rs: x
-ID_EX_inst_rt: x
-IF_ID_inst_rt: x
-MEM_WB_aluRes:       266
-MEM_WB_memData:         0
-MEM_WB_regd: 9
-MEM_WB_ctr:1
-MEM_WB_REGWRITE:1
-MEM_WB_MEMTOREG:0
-EX_MEM_aluRes:         x
-EX_MEM_writeData:         x
-EX_MEM_regd: x
-EX_MEM_ctr: 0
-
-FORWARD_EX_A:0
-FORWARD_EX_B:0
-FORWARD_MEM_A:x
-FORWARD_MEM_B:x
 ID_EX_pcp:        72
 ID_EX_ctr:  0
 ID_EX_imm:         X
@@ -1107,77 +1197,3 @@ ID_EX_REGWRITE:0
 IF_ID_pcp:        76
 IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 instAddr:        80
-PC:        80
-STALL:0
-ID_EX_MEMREAD:0
-ID_EX_inst_rt: x
-IF_ID_inst_rs: x
-ID_EX_inst_rt: x
-IF_ID_inst_rt: x
-MEM_WB_aluRes:         x
-MEM_WB_memData:         0
-MEM_WB_regd: x
-MEM_WB_ctr:0
-MEM_WB_REGWRITE:0
-MEM_WB_MEMTOREG:0
-EX_MEM_aluRes:         x
-EX_MEM_writeData:         x
-EX_MEM_regd: x
-EX_MEM_ctr: 0
-
-FORWARD_EX_A:0
-FORWARD_EX_B:0
-FORWARD_MEM_A:0
-FORWARD_MEM_B:0
-ID_EX_pcp:        76
-ID_EX_ctr:  0
-ID_EX_imm:         X
-ID_EX_readData1:         x
-ID_EX_readData2:         x
-ID_EX_inst_rs: x
-ID_EX_inst_rt: x
-ID_EX_inst_rd: x
-ID_EX_REGDST:0
-ID_EX_ALUSRC:0
-ID_EX_MEMREAD:0
-ID_EX_REGWRITE:0
-IF_ID_pcp:        80
-IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-instAddr:        84
-PC:        84
-STALL:0
-ID_EX_MEMREAD:0
-ID_EX_inst_rt: x
-IF_ID_inst_rs: x
-ID_EX_inst_rt: x
-IF_ID_inst_rt: x
-MEM_WB_aluRes:         x
-MEM_WB_memData:         0
-MEM_WB_regd: x
-MEM_WB_ctr:0
-MEM_WB_REGWRITE:0
-MEM_WB_MEMTOREG:0
-EX_MEM_aluRes:         x
-EX_MEM_writeData:         x
-EX_MEM_regd: x
-EX_MEM_ctr: 0
-
-FORWARD_EX_A:0
-FORWARD_EX_B:0
-FORWARD_MEM_A:0
-FORWARD_MEM_B:0
-ID_EX_pcp:        80
-ID_EX_ctr:  0
-ID_EX_imm:         X
-ID_EX_readData1:         x
-ID_EX_readData2:         x
-ID_EX_inst_rs: x
-ID_EX_inst_rt: x
-ID_EX_inst_rd: x
-ID_EX_REGDST:0
-ID_EX_ALUSRC:0
-ID_EX_MEMREAD:0
-ID_EX_REGWRITE:0
-IF_ID_pcp:        84
-IF_ID_inst:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-instAddr:        88
