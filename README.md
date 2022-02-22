@@ -1,4 +1,5 @@
-# 2020-CS145-ArchLab
+# S145-Labs
+**2020 SJTU CS145 Computer Architecture Labs**
  ## Lab01 LED Flow Water Light
 本实验实现了FPGA基础实验的LED Flow Water Light器件，每个周期计数器加一，当计数器值达到最大值时LED灯左移一位点亮。
  ## Lab02 4bits Adder
